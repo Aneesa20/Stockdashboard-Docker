@@ -1,0 +1,21 @@
+#jupyterlab extensions
+jupyterlab-git
+pandas-profiling
+pyxlsb
+business_duration
+holidays
+#Plot
+matplotlib
+seaborn
+Cython
+dash
+dash-core-components
+dash-html-components
+dash-renderer
+dash-bootstrap-components
+pandas-datareader
+plotly
+Werkzeug
+pyarrow
+parquet
+tabulate
