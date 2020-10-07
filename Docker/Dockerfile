@@ -23,4 +23,6 @@ RUN jupyter labextension install @jupyterlab/toc --no-build && \
 EXPOSE 5000
 EXPOSE 8050
 
-ENTRYPOINT [ "python", "StockDasboard.py" ]
+WORKDIR home/analyst/C/Users/20195478/Documents/Dashboard Practice/Stockdashboard-Docker
+
+ENTRYPOINT [ "python", "StockDashboard.py" ]
