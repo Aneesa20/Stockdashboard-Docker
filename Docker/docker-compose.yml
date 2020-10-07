@@ -1,20 +1,20 @@
 version: '3'
 services:
-  jads_flowtracker:
-    image: jads_flowtracker
+  jads_stockdashbaord:
+    image: jads_stockdashbaord
     build: .
     volumes:
      - "/C/:/home/analyst/C/"
-     - ../:/home/analyst/data_engineering_module_jun_2020
     ports:
       - "8888:8888"
       - "8788:8787"
       - "5000:5000"
-      - "8085:8085" #Dash localhost ports
+      - "8081:8081" #Dash localhost ports
       - "8050:8050" #Dash localhost ports
+      - "8051:8051" #Dash localhost ports
     environment:
       - JUPYTER_ENABLE_LAB=yes
-    container_name: jads_flowtracker
+    container_name: jads_stockdashbaord
     # restart: "always"
 
 

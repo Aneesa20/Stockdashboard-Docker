@@ -23,4 +23,4 @@ RUN jupyter labextension install @jupyterlab/toc --no-build && \
 EXPOSE 5000
 EXPOSE 8050
 
-ENTRYPOINT ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root"]
+ENTRYPOINT [ "python", "StockDasboard.py" ]
